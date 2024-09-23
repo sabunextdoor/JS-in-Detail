@@ -21,4 +21,14 @@
         document.getElementById("p3").innerHTML = typeof (num1)
         document.getElementById("p4").innerHTML = typeof (num2)
         </script>
+<p id="paragraph"></p>
+<script>
+    try{
+        addalert("name")
+    }
+    catch(err){
+
+        document.getElementById("paragraph").innerHTML=err.message
+    }
+</script>
 </body>
